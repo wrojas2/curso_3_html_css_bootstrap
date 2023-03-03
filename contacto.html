@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <form>
+        <div id="1">
+            <table>
+                <caption><h1>INFORMACIÓN DE CONTACTO</h1></caption>
+                <tr>
+                    <td><label for="asunto">Asunto:</label></td>
+                    <td><input type="text" name="asunto" id="asunto" placeholder="asunto"></td>
+                </tr>
+                <tr>
+                    <td><label for="nombre">Nombre Completo:</label></td>
+                    <td><input type="text" name="nom" id="nombre" placeholder="Registre Nombre Completo"></td>
+                </tr>
+                <tr>
+                    <td><label for="correo">Correo electrónico:</label></td>
+                    <td><input type="email" name="email" id="correo" placeholder="Escriba Correo o e-mail"></td>                    
+                </tr>
+                <tr>
+                    <td><label for="telefono">Número de Telefono:</label></td>
+                    <td><input type="tel" name="telefono" id="telefono" placeholder="solo numeros"  pattern="[0-9]"></td>
+                </tr>
+                <tr>
+                    <td><label for="gen">Seleccione Genero:</label></td>
+                    <td>
+                        <select name="genero" id="gen">
+                            <option value="m">Masculino</option>
+                            <option value="f">Femenino</option>  
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="obs">Mensaje:</label></td>
+                    <td><textarea name="Comentarios" id="obs" cols="21" rows="5" placeholder="mensaje"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Enviar" id="#1"></td>
+                </tr>
+            </table>          
+        </div>        
+    </form>
+</body>
+</html>

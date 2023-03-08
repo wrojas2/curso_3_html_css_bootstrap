@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCUESTA</title>
+</head>
+<body>
+    <form>
+        <div>        
+            <table border="3" >            
+                    <caption>                    
+                        <a href="https://www.unc.edu.co/unc/" target="_blank">
+                            <h1>EVALUACION DIPLOMADO MAQUETACIÓN FUNDACION UNIVERSITARIA COMFENALCO</h1>
+                            <img src="https://www.unc.edu.co/wp-content/uploads/2015/10/frente2.jpg" alt="im1">
+                        </a>
+                    </caption>            
+                    <tr>
+                        <td colspan="2">                            
+                            <p>La presente evaluación consta de 10 preguntas, 3 de selección multiple, 
+                                4 de selección con única respuesta y 3 preguntas abiertas.</p>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td><label for="fecha">Fecha Registro</label></td>                
+                        <td><input type="date" name="fech" id="fecha"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Nombre Completo</label></td>
+                        <td><input type="text" name="nombre" id="name" placeholder="Nombre completo"></td>
+                    </tr>           
+                    <tr>
+                        <td><label id="1">1. Selecciones los lenguajes estudiados en el presente curso</label></td>
+                        <td><input type="checkbox" id="ht" name="html" value="html">
+                            <label for="ht">HTML</label>                
+                            <br>
+                            <input type="checkbox" id="jv" name="javascript" value="javascript">
+                            <label for="jv">JAVASCRIPT</label>    
+                            <br>
+                            <input type="checkbox" id="vs" name="visual" value="visual">
+                            <label for="vs">VISUAL NET</label>                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="elem" id="2">2. ¿Qué es una etiqueta HTML ?</label></td>
+                        <td><textarea name="elemento" id="elem" cols="50" rows="5" ></textarea></td>                       
+                    </tr>
+                    <tr>
+                        <td>
+                            <label id="3">
+                                <p> 3. Los HIPERVÍNCULOS O ENLACES EN HTML <br>
+                                    son los textos o los objetos sobre los que podemos <br>
+                                    hacer clic para que nos lleven a otra parte del documento,<br>
+                                    a otra página web en el mismo sitio o a otra página <br>
+                                    de Internet,entre otras funciones. 
+                                    </p>  
+                            </label>                  
+                        </td>
+                        <td>
+                            <input type="radio" name="nivel" id="fal" value="falso" >
+                            <label for="fal">FALSO</label>
+                            <br><br>
+                            <input type="radio" name="nivel" id="verd" value="verdadero" >
+                            <label for="verd">VERDADERO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label id="4">4. Selecciones dos etiquetas html</label></td>
+                        <td><input type="checkbox" id="div" name="hiper" value="div">
+                            <label for="div">div</label>                
+                            <br>
+                            <input type="checkbox" id="in" name="input" value="input">
+                            <label for="in">input</label>    
+                            <br>
+                            <input type="checkbox" id="tp" name="typ" value="type">
+                            <label for="tp">type</label>                            
+                        </td>
+                    </tr>      
+                    <tr>
+                        <td><label for="marcador" id="5">5. ¿Qué es un marcador ?</label></td>
+                        <td><textarea name="marcador" id="marcador" cols="50" rows="5" ></textarea></td>                       
+                    </tr>
+                    <tr>
+                        <td>
+                            <label id="6">6. Un elemento HTML abarca desde la apertura <br>
+                                hasta el cierre de cada una de las etiquetas.                    
+                            </label>                    
+                        </td>
+                        <td>
+                            <input type="radio" name="nivel" id="fals" value="falso" >
+                            <label for="fals">FALSO</label>
+                            <br><br>
+                            <input type="radio" name="nivel" id="verda" value="verdadero" >
+                            <label for="verda">VERDADERO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="css" id="7">7. El CSS es utilizado para</label></td>
+                        <td>
+                            <select name="css" id="css">
+                                <option value="css">Diseñar y dar estilo a las páginas web</option>
+                                <option value="html">Dar el Lenguaje de Marcado de Hipertexto</option>  
+                                <option value="java">programación ligera, interpretada, o compilada</option>  
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="anidado" id="8">8. ¿Qué es un elemento anidado ?</label></td>
+                        <td><textarea name="anidado" id="anidado" cols="50" rows="5" ></textarea></td>                       
+                    </tr>
+                    <tr>
+                        <td><label id="9">9. Etiquetas HTML utilizadas para resaltar textos</label></td>
+                        <td><input type="checkbox" id="str" name="strong" value="strong">
+                            <label for="str">strong</label>                
+                            <br>
+                            <input type="checkbox" id="bol" name="bold" value="bold">
+                            <label for="bol">b</label>    
+                            <br>
+                            <input type="checkbox" id="head" name="head" value="head">
+                            <label for="head">h1, h2, h3</label>   
+                            <br>         
+                            <input type="checkbox" id="lab" name="label" value="label">
+                            <label for="lab">label</label>                    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label id="10">10. Nivel de apropiación de los temas vistos</label></td>
+                        <td><input type="radio" name="nivel" id="exce" value="excelente" >
+                            <label for="exce">EXCELENTE</label>
+                            <br>
+                            <input type="radio" name="nivel" id="buen" value="bueno" >
+                            <label for="buen">BUENO</label>
+                            <br>
+                            <input type="radio" name="nivel" id="regu" value="regular" >
+                            <label for="regu">REGULAR</label>
+                            <br>
+                            <input type="radio" name="nivel" id="defi" value="malo" >
+                            <label for="defi">DEFICIENTE</label>
+                        </td>                 
+                    </tr>           
+            </table>
+            <br>        
+        </div>
+        <div>
+            <label>PRESIONE ENVIAR PARA FINALIZAR LA EVALUACION</label>
+            <input type="submit" value="Enviar" id="env">       
+        </div>        
+    </form>
+</body>
+</html>

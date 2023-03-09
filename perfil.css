@@ -1,0 +1,18 @@
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.center{
+    text-align: center;
+}
+.bg-image-bootstrap{
+    background-image: url(https://www.eniun.com/wp-content/uploads/Bootstrap-descargar-instalar.png);
+    width: 100%;
+}
+.encabezado-tabla-colo-morado{
+    background-color: rgb(43, 8, 74);
+    color: white;
+
+}
+#resaltar-texto-en-negrita{
+    font-weight: bold;
+}

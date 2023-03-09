@@ -1,14 +1,8 @@
-body{
-    background-color: rgb(157, 159, 158);    
-}
 div#tabla1{
     background-color: rgb(200, 255, 127);
     color: rgb(43, 198, 226);
 }
-#tabla2{
-    background-color: rgb(70, 70, 72);
-    color: rgb(217, 43, 226);
-}
+
 .titulos_contacto{
     text-align: center;
     color:crimson;
@@ -25,13 +19,40 @@ p.parrafos_contacto{
     font-size:x-large;    
 }
 
-li{
-    color:aquamarine;
-}
-
 .experiencia{
     text-align: start;
     background-color:antiquewhite;
     color: rgb(13, 17, 236);
     border:rgb(217, 43, 226);    
 }
+
+/* ejercicio clase 08/03/2023 */
+
+.titulo_rojo{
+    color: red;    
+}
+.tamano_titulo{
+    font-size: 100px;
+}
+#titulo_rojo{
+    color: red;
+    font-size: 100px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+li{
+    color:green
+}
+.color_parrafo{
+    color:blueviolet;
+}
+
+#tabla2{
+    background-color:aquamarine;    
+    color:darkslategrey;
+    text-align: start;
+}
+

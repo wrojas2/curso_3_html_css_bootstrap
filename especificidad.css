@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+}
+.especlase{
+    text-align: left;
+    color: rgb(75, 12, 193);
+    text-transform: capitalize;
+}
+#espeid{
+    text-align: right;
+    color: brown;
+    text-transform: lowercase;
+}

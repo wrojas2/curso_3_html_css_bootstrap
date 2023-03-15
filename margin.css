@@ -21,3 +21,7 @@
 .m-b{
     margin-bottom: 100px;
 }
+
+.m-auto{
+    margin: 12px;
+}

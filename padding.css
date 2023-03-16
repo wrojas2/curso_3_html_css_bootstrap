@@ -1,0 +1,30 @@
+.p-auto-10{
+    padding: 10px;
+}
+.p-t{
+    padding-top: 10px;
+}
+.p-b{
+    padding-bottom: 10px;
+}
+.p-auto-abreviado{
+    padding: 20px 30px 20px 15px;
+}
+.ejercicio{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.color-contorno{
+    border: 5px solid black;
+    outline: 15px solid red;
+    outline-offset: 15px;
+    width: 200px;
+    height: 600px;
+    margin: 80px;
+    /*outline-style: solid;
+    outline-width: 15px;
+    outline-color: red;*/
+}

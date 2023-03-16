@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="card2.css">  
+    <title>FORMULARIO CONTACTO</title>
+</head>
+<body>
+    <div class="card p-auto-10">
+        <div class="card-header">
+            <h1>CONTACTENOS</h1>
+        </div>
+        <div class="card-body">
+            <img class="img-rouded" src="https://www.clinicadelcountry.com/app/default/assets/images/contactenos.jpg" alt="img1" width="75%">
+            <table id="tabla1" class="p-auto">                
+                <tr>
+                    <td><label for="asunto">Asunto:</label></td>
+                    <td><input type="text" name="asunto" id="asunto" placeholder="asunto"></td>
+                </tr>
+                <tr>
+                    <td><label for="nombre">Nombre Completo:</label></td>
+                    <td><input type="text" name="nom" id="nombre" placeholder="Registre Nombre Completo"></td>
+                </tr>
+                <tr>
+                    <td><label for="correo">Correo electrónico:</label></td>
+                    <td><input type="email" name="email" id="correo" placeholder="Escriba Correo o e-mail"></td>                    
+                </tr>                
+                <tr>
+                    <td><label for="obs">Mensaje:</label></td>
+                    <td><textarea name="Comentarios" id="obs" cols="21" rows="5" placeholder="mensaje"></textarea></td>
+                </tr>                
+            </table>          
+        </div>                
+        <div class="card-footer">
+            <button class="btn-enviar m-t m-b color-white p-auto">ENVIAR</button>                     
+        </div>        
+    </div>
+</body>
+</html>

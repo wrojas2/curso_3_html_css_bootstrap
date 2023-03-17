@@ -55,4 +55,22 @@ li{
     color:darkslategrey;
     text-align: start;
 }
+ /*Ejercicio Clase 16-03-2023 */
+.box-model{
+    margin: 35px;
+    border: 15px dotted rgb(84, 177, 239);
+    padding: 20px;
+}
+div{
+    height: 380px;
+    width: 700px;
+    outline-width: 10px;
+    outline-style:double;
+    outline-color:black;    
+}
+.div-experiencia{ 
+    outline: 5px solid yellow;
+    outline-offset: 15px;
+}
+
 

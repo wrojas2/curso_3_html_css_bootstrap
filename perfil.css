@@ -16,3 +16,7 @@ body{
 #resaltar-texto-en-negrita{
     font-weight: bold;
 }
+.color-red{
+    color: red;
+    box-shadow: 2px 2px 1px 0px rgb(78, 76, 76);
+}
